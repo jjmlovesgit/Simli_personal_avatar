@@ -1,0 +1,77 @@
+/* Dark mode styling */
+body {
+    background-color: #1e1e1e;
+    color: #00bfae; /* Teal text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h2, h3 {
+    color: #00bfae;
+    border-bottom: 1px solid #00bfae;
+    padding-bottom: 10px;
+  }
+  
+  button {
+    background-color: #00bfae;
+    color: #1e1e1e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #008c7a;
+  }
+  
+  button:active {
+    background-color: #006e60;
+  }
+  
+  button:disabled {
+    background-color: #444;
+    color: #888;
+    cursor: not-allowed;
+  }
+  
+  pre {
+    background-color: #333;
+    color: #00bfae;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 200px;
+  }
+  
+  /* Centering and resizing video */
+  #media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  audio, video {
+    max-width: 100%;
+    border: 2px solid #00bfae;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  video {
+    width: 50%; /* Set video to 50% of the container width */
+  }
+  
+  #start, #stop {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
